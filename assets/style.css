@@ -635,7 +635,7 @@ a:hover,
 a:focus,
 a:active {
   outline: 0;
-  color: #57b33e;
+  color: #990000;
   text-decoration: none;
 }
 
@@ -966,7 +966,7 @@ body.page #main-content {
 }
 #main-nav ul li .active::after,
 #main-nav ul li .active {
-  color: #57b33c !important;
+  color: #990000 !important;
 }
 #main-nav ul li .down::after {
   content: "\f078";
@@ -1249,7 +1249,7 @@ body.page #main-content {
 }
 
 #header-get-a-quote a:hover {
-  background-color: #57b33e;
+  background-color: #990000;
   color: #ffffff;
 }
 
@@ -2311,7 +2311,7 @@ body.page #main-content {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
-  background-color: #ff7029;
+  background-color: #990000;
   border: 0px;
   padding: 17px 0px;
   margin-bottom: 11px;
@@ -2359,7 +2359,7 @@ body.page #main-content {
   background-color: #f0f4f9;
 }
 #footer.style-2 .footer-information {
-  background-color: #57b33c;
+  background-color: #990000;
   border-radius: 0 0 5px 5px;
   margin: 0;
 }
@@ -2598,7 +2598,8 @@ body.page #main-content {
   padding: 0 0 303px 0;
 }
 .row-experiences {
-  background-image: url("img/klk/solar-worker.jpg");
+  background-image: url("img/worker.jpg");
+  background-position: bottom;
   background-size: cover;
   padding: 0 0 443px 0;
 }
@@ -2651,7 +2652,7 @@ body.page #main-content {
 }
 #scroll-top:before {
   z-index: -1;
-  background-color: #57b33e;
+  background-color: #990000;
 }
 #scroll-top:after {
   content: "\f10c";

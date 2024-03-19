@@ -70,7 +70,7 @@
 }
 
 .custom.tparrows:hover {
-  background-color: #57b33e !important;
+  background-color: #990000 !important;
 }
 .custom.tparrows:hover:before {
   color: #fff;
@@ -271,7 +271,7 @@
 }
 .box-service:hover .icon {
   color: #fff;
-  background-color: #57b33c;
+  background-color: #990000;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -280,7 +280,7 @@
 }
 
 .box-service.active .icon {
-  background-color: #57b33c;
+  background-color: #990000;
   color: #fff;
   box-shadow: 0 10px 30px rgb(0 0 0 / 7%);
 }
@@ -290,7 +290,7 @@
 
 .service-inner-text .icon {
   font-size: 60px;
-  color: #57b33c;
+  color: #990000;
   background-color: #fff;
   border-radius: 5px;
   width: 101px;
@@ -467,7 +467,7 @@
 }
 
 .box-service .service-read-more {
- color: #57b33e;
+ color: #990000;
 }
 .box-service .service-read-more:hover {
   color: #ff7029;
@@ -524,7 +524,7 @@
 
 .counter-item .inner .heading::after {
   content: "";
-  background-color: #57b33c;
+  background-color: #990000;
   position: absolute;
   width: 43px;
   height: 7px;
@@ -544,7 +544,6 @@
   position: absolute;
   padding: 45px 72px 25px 55px;
   top: 145px;
-  right: 80px;
   border-radius: 5px;
 }
 
@@ -582,7 +581,7 @@
 
 .row-experiences-bottom {
   margin: 0px;
-  background-color: #57b33c;
+  background-color: #990000;
   padding: 50px 50px 46px 36px;
   position: relative;
   top: 625px;
@@ -610,7 +609,7 @@
 }
 .row-experiences-bottom .submit {
   border-radius: 60px;
-  background-color: #ff7029;
+  background-color: #990000;
   color: #fff;
   font-family: "Rajdhani", sans-serif;
   font-size: 20px;
@@ -935,7 +934,7 @@
   display:-webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  background-color: #ff7029;
+  background-color: #990000;
   border-radius: 5px;
   padding: 25px 201px 25px 30px;
   text-align: left;
@@ -955,7 +954,7 @@
   display:-webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  background-color: #ff7029;
+  background-color: #990000;
   border-radius: 5px;
   padding: 25px 201px 25px 30px;
   text-align: left;
@@ -1066,7 +1065,7 @@
 
 .box-work a.btn-read-more {
   color: #fff;
-  background-color: #57b33c;
+  background-color: #990000;
   padding: 14px 32px 14px 29px;
   border-radius: 5px;
   font-size: 14px;
@@ -1272,7 +1271,7 @@
   font-weight: 500;
   letter-spacing: 0px;
   color: #fff;
-  background-color: #57b33c;
+  background-color: #990000;
   margin-left: 13px;
   border: 0px;
   padding: 21px 222px 21px 208px;
@@ -1375,7 +1374,7 @@
 .row-question-slider .box-question .fa-quote-left {
   font-size: 30px;
   color: #fff;
-  background-color: #57b33c;
+  background-color: #990000;
   padding: 20px 20px;
   border-radius: 50px;
   position: absolute;
