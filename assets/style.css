@@ -905,9 +905,12 @@ body.page #main-content {
   padding-bottom: 25px;
 }
 #site-header.is-fixed.is-small #site-logo {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-top: -45px;
+  img{
+    height: 80px;
+  }
 }
 #site-header.is-fixed.is-small #header-get-a-quote {
   top: 28px;
@@ -926,8 +929,8 @@ body.page #main-content {
 
 #site-logo {
   width: 22.5%;
-  margin: -102px 0px 0px 0px;
-  padding: 50px 0px 50px 0px;
+  margin: -136px 0px 0px 0px;
+  padding: 50px 0px 25px 0px;
   background-color: #fff;
   position: absolute;
   z-index: 3;
@@ -2604,7 +2607,8 @@ body.page #main-content {
   padding: 0 0 443px 0;
 }
 .row-request {
-  background-image: url("img/shortcode/request/bg-request.jpg");
+  background-image: url("/assets/images/white-quote.jpg");
+  background-position: center;
   background-size: cover;
 }
 .style-2 .item.acticle .img-overlay {
