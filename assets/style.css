@@ -1325,7 +1325,10 @@ body.page #main-content {
 
 /* Header Baner */
 #header-banner {
-  background-image: url("images/services.jpg");
+  background-image: url("images/header.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
   height: 400px;
 }
 
