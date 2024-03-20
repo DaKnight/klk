@@ -1228,14 +1228,14 @@
   border-color: #343c4a;
   margin: 11px 0;
   padding: 19px 0px 19px 18px;
-  background-color:#0c017e ;
+  background-color:#343c4a00 ;
 }
 .row-request-right-inner .text:focus {
-  color: rgba(255, 255, 255, 0.6);
+  color: #000000;
   border-color: #343c4a;
 }
 .row-request-right-inner .text::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: #000000;
 }
 .row-request-right-inner .text:-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
@@ -1252,8 +1252,8 @@
 }
 
 .row-request-right-inner .select {
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #0c017e;
+  color: #000000;
+  background-color: #343c4a00;
   border: 1px solid #343c4a;
   border-radius: 5px;
   margin: 10px 0;
@@ -1264,7 +1264,7 @@
   margin-top: 22px;
   z-index: 10;
   width: 92%;
-  padding: 0 0 121px 0;
+  padding: 0 0 30px 0;
 }
 .row-request-right .btn-submit .submit {
   font-size: 18px;

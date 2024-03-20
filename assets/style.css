@@ -2605,8 +2605,8 @@ body.page #main-content {
 }
  
 .row-experiences {
-  background-image: url("img/worker.jpg");
-  background-position: bottom;
+  background-image: url("/assets/images/worker.jpg");
+  background-position: right;
   background-size: cover;
   padding: 0 0 443px 0;
 }
