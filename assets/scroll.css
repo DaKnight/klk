@@ -1,0 +1,27 @@
+#scrollContainer {
+    height:350px; 
+    max-width: 800px;
+    overflow:hidden;
+    position:relative; 
+  }
+  
+
+  .scollBanner {
+    position:relative; 
+    overflow:hidden; 
+    white-space: nowrap;
+    animation: bannermove 13s linear infinite;
+  }
+  
+  .scollBanner img {    
+    margin: 0 0.5em 
+  }
+  
+  @keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+  }

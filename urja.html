@@ -15,22 +15,37 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/zingbox-icon.css">
+
+    <!-- wow -->
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="assets/icon/icon_logo.png">
     <link rel="apple-touch-icon-precomposed" href="assets/icon/icon_logo2.png">
 
-    <!--[if lt IE 9]>
-        <script src="javascript/html5shiv.js"></script>
-        <script src="javascript/respond.min.js"></script>
-    <![endif]-->
+    <style>
+        .arrow li::before {
+        content: "\2192";
+        font-size: 20px;
+        color: #000000;
+        }
+     </style>
+
+     <link rel="stylesheet" href="/assets/scroll.css">
 
 </head>
 
 <body class=" sidebar-right header-style-2 topbar-style-1 menu-has-search header-fixed">
 
 <div id="wrapper" class="animsition">
-    <div id="page" class="clearfix">
+    <div id="page" class="">
         <!-- Header Wrap -->
         <div id="site-header-wrap">
             <!-- Top Bar -->        
@@ -40,7 +55,7 @@
                         <div class="top-bar-content">
                             <div class="inner">
                                 <span class="location content">2072 Pinnickinick Street, WA 98370</span>
-                                <span class="envelope content">info@klkindia.com</span>
+                                <span class="envelope content">info@website.com</span>
                                 
                             </div>                            
                         </div><!-- /.top-bar-content -->
@@ -66,7 +81,7 @@
                         <div id="site-logo" class="clearfix">
                             <div id="site-logo-inner">
                                 <a href="index.html" rel="home" class="main-logo">
-                                    <img src="assets/img/logo.png" alt="Zingbox"  data-retina="assets/img/logo.png" >
+                                    <img src="assets/img/logo.png" alt="Zingbox" data-retina="assets/img/logo.png" >
                                 </a>
                             </div>
                         </div><!-- /#site-logo -->
@@ -101,17 +116,17 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-has-children">
-                                    <a class="down" href="project.html">Project</a>
+                                    <a class="active down" href="project.html">Project</a>
                                     <ul class="sub-menu ">
                                         <li class="menu-item"><a href="project.html">Project</a></li>
-                                        <li class="menu-item"><a href="project-detail.html">Project Details</a></li>
+                                        <li class="menu-item"><a class="active" href="project-detail.html">Project Details</a></li>
                                     </ul>
                                 </li>
                                 
                                 <li class="menu-item menu-item-has-children" >
-                                    <a class="active down" href="blog.html">Blog</a>
+                                    <a class="down" href="blog.html">Blog</a>
                                     <ul class="sub-menu ">
-                                        <li class="menu-item"><a class="active" href="blog.html">Blog Standard</a></li>
+                                        <li class="menu-item"><a href="blog.html">Blog Standard</a></li>
                                         <li class="menu-item"><a href="blog-detail.html">Blog Details</a></li>
                                     </ul>
                                 </li>
@@ -129,241 +144,166 @@
             </header><!-- /#site-header -->
         </div><!-- #site-header-wrap -->
 
-        <!-- Header Banner-->
-        <div id="header-banner" class="header-banner clearfix">
-            <div class="header-banner-overlay"></div>
-            <div id="header-banner-inner" class="container clearfix">
-                <div class="header-banner-inner-wrap">                    
-                    <div class="blog-standar-start">
-                        <h1 class="blog-standar-start1">KLK URJA PRIVATE LIMITED</h1>
-                    </div>
-                    <h2 class="blog-standar-end">
-                        <a href="index.html" class="blog-standar-end">Home</a> |
-                        <span class="blog-standar-end">KLK Urja Private Limited</span>
-                    </h2>               
-                </div><!-- /.header-banner-inner-wrap -->
-            </div><!-- /#header-banner-inner -->  
-                      
-        </div>
-        <!-- End Header Banner -->  
-
         <!-- Main Content -->
-        <div id="main-content" class="site-main clearfix">
-            <div id="content-wrap" class="container">
-                <div id="site-content" class="site-content clearfix">
-                    <div id="inner-content" class="inner-content-wrap">
+        <div id="main-content-home" class="site-main clearfix">
 
-                        <article class="hentry data-effect">
-                            <div class="post-media  clerafix">
-                                <a href="blog-detail.html"><img src="assets/img/post/post-1.jpg" alt="Image"></a>                           
-                            </div><!-- /.post-media -->
-
-                            <div class="post-content-wrap ">
-                                <div class="post-meta">
-                                    <div class="post-meta-content">
-                                        <div class="post-meta-content-inner">
-                                            <span class="post-by-author item">user<span class="inner"><a href="#"> BY ADMIN</a></span></span>
-                                            <span class="post-date item"><span class="inner"><span class="entry-date">28 JANUARY, 2020</span></span></span>
-                                        </div>
-                                    </div>
-                                </div><!-- /.post-meta -->                                
-                                <h6 class="post-title">
-                                    <span class="post-title-inner">
-                                        <a href="blog-detail.html">LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING  </a>
-                                    </span>
-                                </h6><!-- /.post-title -->
-
-                                <div class="post-content ">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum</p>
-                                </div><!-- /.post-excerpt -->
-                                <div class="post-read-more">
-                                    <div class="post-link">
-                                        <a href="blog-detail.html">READ MORE</a>
-                                    </div>
+            <!-- Header Banner-->
+            <div id="header-banner" class="header-banner clearfix">
+                <div class="header-banner-overlay"></div>
+                <div id="header-banner-inner" class="container clearfix">
+                    <div class="header-banner-inner-wrap">                    
+                        <div class="blog-standar-start">
+                            <h1 class="blog-standar-start1">KLK URJA PRIVATE LIMITED</h1>
+                        </div>
+                        <h2 class="blog-standar-end">
+                            <a href="index.html" class="blog-standar-end">Home</a> |
+                            <span class="blog-standar-end">KLK Urja Private Limited</span>
+                        </h2>               
+                    </div><!-- /.header-banner-inner-wrap -->
+                </div><!-- /#header-banner-inner -->  
+                        
+            </div>
+            <!-- End Header Banner --> 
+            <div class="container">
+                <div class="themesflat-spacer clearfix" data-desktop="120" data-mobile="60" data-smobile="60"></div>
+                <div class="project-detail-content">
+                    <div class="heading">
+                        <img src="assets/urja/Lifep.jpg" alt="Image">
+                        <div class="top-information">
+                            <div class="project-infor">
+                                <h2>LITHIUM ION PHOSPHATE BATTERY ADVANTAGES</h2>
+                                <!-- <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p> -->
+                            </div>
+                            <div class="category mt-5 mt-lg-0">
+                                <h2><i class="zingbox-icon-clock"></i> &nbsp;Long Life Battery</h2>
+                                <!-- <p>Curabitur elit metus </p> -->
+                            </div>
+                            <div class="date mt-5 mt-lg-0">
+                                <h2><i class="zingbox-icon-Battery-Solar-Power"></i> &nbsp;Maintenance Free</h2>
+                                <!-- <p>April 24, 2021</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="infor-of-project">
+                    <div class="themesflat-spacer clearfix" data-desktop="144" data-mobile="285" data-smobile="60"></div>
+                    <h1>Lithium Battery</h1>
+                    <p align="justify">Lithium iron phosphate batteries (LiFePO4 or LFP) present numerous advantages over lead-acid and other
+                         lithium batteries. With their extended lifespan, maintenance-free operation, and exceptional safety
+                         features, they offer unparalleled reliability. While they may not be the most economical option initially,
+                         their durability and efficiency make them a wise long-term investment, ensuring peace of mind and
+                         optimal performance for years to come.
+                    </p>
+                    <p style="margin-top: 10px;" align="justify">Moreover, their lightweight design and improved discharge and charge efficiency make them ideal for various
+                         applications, from residential solar systems to electric vehicles and portable electronics. LiFePO4 batteries
+                         stand out as the preferred choice for those seeking sustainable energy solutions without compromising on
+                         reliability or safety. Investing in LiFePO4 technology is not just a decision for today, but a commitment
+                         to a greener and more efficient tomorrow.
+                    </p>
+                </div>  
+                <!-- <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-project-detail" src="assets/img/shortcode/project-detail/infor-project1.jpg" alt="Image">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-project-detail" src="assets/img/shortcode/project-detail/infor-project2.jpg" alt="Image">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-project-detail" src="assets/img/shortcode/project-detail/infor-project3.jpg" alt="Image">
+                    </div>
+                </div> -->
+                <div class="themesflat-spacer clearfix" data-desktop="35" data-mobile="35" data-smobile="35"></div>
+                <div class="our-main-goal">
+                    <div class="row">
+                        <div class="col-md-12"><h2 style="color: #000000;">LITHIUM-ION-AN IDEAL BATTERY</h2></div>
+                        <div class="col-md-12"><h1>Today: Lithium-ion is the fastest and most promising battery chemistry</h1></div>
+                        <div class="col-md-6">
+                            <p class="margin-top-4" align="justify">For years, nickel-cadmium batteries dominated the portable equipment market, serving
+                                 wireless communications and mobile computing needs. However, in the early 1990s, both nickel-metal-hydride
+                                 and lithium-ion batteries emerged as formidable contenders, vying for customer acceptance.
+                            </p>
+                        </div>
+                        <div class="col-md-6 mt-4">
+                            <div class="our-main-goal-inner">
+                                <div class="content one">
+                                    <a class="title" href="service-detail.html">Safest</a>
                                 </div>
-                            </div><!-- /.post-content-wrap -->
-                        </article><!-- /.hentry -->
-
-                        <article class="hentry data-effect">
-                            <div class="post-media data-effect-item has-effect-icon offset-v-25 offset-h-24clerafix">
-                                <a href="blog-detail.html"><img src="assets/img/post/post-2.jpg" alt="Image"></a>                             
-                            </div><!-- /.post-media -->
-
-                            <div class="post-content-wrap clearfix">
-                                <div class="post-meta">
-                                    <div class="post-meta-content">
-                                        <div class="post-meta-content-inner">
-                                            <span class="post-by-author item">user<span class="inner"><a href="#"> BY ADMIN</a></span></span>
-                                            <span class="post-date item"><span class="inner"><span class="entry-date">28 JANUARY, 2020</span></span></span>
-                                        </div>
-                                    </div>
-                                </div><!-- /.post-meta -->
-                                <h6 class="post-title">
-                                    <span class="post-title-inner">
-                                        <a href="blog-detail.html">LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING</a>
-                                    </span>
-                                </h6><!-- /.post-title -->                                
-                                <div class="post-content ">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum</p>
-                                </div><!-- /.post-excerpt -->
-                                <div class="post-read-more">
-                                    <div class="post-link">
-                                        <a href="blog-detail.html">READ MORE</a>
-                                    </div>
+                                <div class="content two margin-left-16">
+                                    <a class="title" href="service-detail.html">Eco-friendly</a>
                                 </div>
-                            </div><!-- /.post-content-wrap -->
-                        </article><!-- /.hentry -->
-
-                        <article class="hentry margin-top-33 padding-top-45 data-effect">
-                            <div class="post-media data-effect-item has-effect-icon offset-v-25 offset-h-24 clerafix">
-                                <a href="blog-detail.html"><img src="assets/img/post/post-3.jpg" alt="Image"></a>
-                            </div><!-- /.post-media -->
-
-                            <div class="post-content-wrap clearfix">                                
-                                <div class="post-meta">
-                                    <div class="post-meta-content">
-                                        <div class="post-meta-content-inner">
-                                            <span class="post-by-author item">user<span class="inner"><a href="#"> BY ADMIN</a></span></span>
-                                            <span class="post-date item"><span class="inner"><span class="entry-date">28 JANUARY, 2020</span></span></span>
-                                        </div>
-                                    </div>
-                                </div><!-- /.post-meta -->
-                                <h6 class="post-title">
-                                    <span class="post-title-inner">
-                                        <a href="blog-detail.html">LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING</a>
-                                    </span>
-                                </h6><!-- /.post-title -->
-                                <div class="post-content ">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum</p>
-                                </div><!-- /.post-excerpt -->
-                                <div class="post-read-more">
-                                    <div class="post-link">
-                                        <a href="blog-detail.html">READ MORE</a>
-                                    </div>
+                            </div>
+                            <div class="our-main-goal-inner">
+                                <div class="content tree">
+                                    <a class="title" href="service-detail.html">Low cost</a>
                                 </div>
-                            </div><!-- /.post-content-wrap -->
-                        </article><!-- /.hentry -->
-
-                        <article class="hentry margin-top-33 padding-top-45 data-effect">
-                            <div class="post-media data-effect-item has-effect-icon offset-v-25 offset-h-24 clerafix">
-                                <a href="blog-detail.html"><img src="assets/img/post/post-4.jpg" alt="Image"></a>
-                            </div><!-- /.post-media -->
-
-                            <div class="post-content-wrap clearfix">                                
-                                <div class="post-meta">
-                                    <div class="post-meta-content">
-                                        <div class="post-meta-content-inner">
-                                            <span class="post-by-author item">user<span class="inner"><a href="#"> BY ADMIN</a></span></span>
-                                            <span class="post-date item"><span class="inner"><span class="entry-date">28 JANUARY, 2020</span></span></span>
-                                        </div>
-                                    </div>
-                                </div><!-- /.post-meta -->
-                                <h6 class="post-title">
-                                    <span class="post-title-inner">
-                                        <a href="blog-detail.html">LOREM IPSUM DOLOR SIT AMET, CONSETETUR SADIPSCING</a>
-                                    </span>
-                                </h6><!-- /.post-title -->
-                                <div class="post-content ">
-                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum</p>
-                                </div><!-- /.post-excerpt -->
-                                <div class="post-read-more">
-                                    <div class="post-link">
-                                        <a href="blog-detail.html">READ MORE</a>
-                                    </div>
+                                <div class="content four margin-left-16">
+                                    <a class="title" href="service-detail.html">Less weight and size</a>
                                 </div>
-                            </div><!-- /.post-content-wrap -->
-                        </article><!-- /.hentry -->
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="themesflat-spacer clearfix" data-desktop="45" data-mobile="45" data-smobile="45"></div>
+                <div class="post-tag-project mb-5">
+                    <div class="tag">
+                        <!-- <a class="black" href="#">Black</a>
+                        <a class="aid" href="#">Aid</a>
+                        <a class="green" href="#">Green</a>                  -->
+                    </div>
+                </div>
 
-                        <div class="themesflat-pagination clearfix">
-                            <ul>
-                                <li><a href="#" class="page-numbers prev"><span class="fa fa-angle-left"></span></a></li>
-                                <li><a href="#" class="page-numbers current">1</a></li>
-                                <li><a href="#" class="page-numbers">2</a></li>
-                                <li><a href="#" class="page-numbers">3</a></li>
-                                <li><a href="#" class="page-numbers">...</a></li>
-                                <li><a href="#" class="page-numbers">10</a></li>
-                                <li><a href="#" class="page-numbers next"><span class="fa fa-angle-right"></span></a></li>
+                <div class="themesflat-spacer clearfix" data-desktop="35" data-mobile="35" data-smobile="35"></div>
+                <div class="our-main-goal">
+                    <div class="row">
+                        <div class="col-md-12"><h1>ADVANTAGES</h1></div>
+                        <div class="col-md-12">
+                            <ul class="arrow" align="justify">
+                                <li> High energy density – potential for even higher capacities.</li>
+                                <li> Does not require prolonged priming when new. One regular charge is sufficient.</li>
+                                <li> Relatively low self-discharge – less than half that of nickel-based batteries.</li>
+                                <li> Low maintenance – no periodic discharge needed; no memory effect.</li>
+                                <li> Specialty cells can deliver very high currents for applications like power tools.</li>
                             </ul>
                         </div>
-                    </div><!-- /#inner-content -->
-                </div><!-- /#site-content -->
-                <div id="sidebar">
-                    <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="60" data-smobile="60"></div>
-                    <div id="inner-sidebar" class="inner-content-wrap">
+
+                        <div class="col-md-12"><h1>LIMITATIONS</h1></div>
+                        <div class="col-md-12 mb-5">
+                            <ul class="arrow" style="list-style-type: none;">
+                                <li> Specialty cells can provide very high current to applications such as power tools.</li>
+                                <li> Expensive to manufacture – about 40 percent higher in cost than nickel-cadmium.</li>
+                                <li> Not fully mature – metals and chemicals are changing on a continuing basis.</li>
+                            </ul>
+                        </div>
                         
-                        <div class="widget widget_search">
-                            <h3 class="widget-title"><span>Search</span></h3>
-                            <form action="#" method="get" role="search" class="search-form style-1">
-                                <input type="search" class="search-field" placeholder="Search here" value="" name="s" title="Search for">
-                                <button class="search-submit" type="submit" title="Search">Search</button>
-                            </form>
-                        </div><!-- /.widget_search -->
-
-                        <div class="widget widget_category">
-                            <h3 class="widget-title"><span>Category</span></h3>
-                            <ul class="list-category">
-                                <li><a href="blog.html">Tempor lorem interdum</a></li>
-                                <li><a href="blog.html">Auctor mattis lacus </a></li>
-                                <li><a href="blog.html">Dolor proin </a></li>
-                                <li><a href="blog.html">Pharetra amet </a></li>
-                                <li><a href="blog.html">Nullam dolor gravida </a> </li>
-                            </ul>
-                        </div><!-- /.widget_category -->
-
-                        <div class="widget widget_recent_news">
-                            <h3 class="widget-title"><span>Recent News</span></h3>
-                            <ul class="lastest-posts ">
-                                <li class="">
-                                    <div class="thumb data-effect-item has-effect-icon ">
-                                        <img src="assets/img/post/recent-new-1.jpg" alt="Image">
-                                    </div>
-                                    <div class="text">
-                                        <h4><a href="blog-detail.html">Integer at faucibus urna. Nullam condimentum</a></h4>
-                                        <span class="post-date"><span class="entry-date">15 October</span></span>
-                                    </div>                                    
-                                </li>
-                                <li class="clearfix">
-                                    <div class="thumb data-effect-item has-effect-icon">
-                                        <img src="assets/img/post/recent-new-2.jpg" alt="Image">
-                                        <div class="elm-link">
-                                            <a href="blog-detail.html" class="icon-2"></a>
-                                        </div>
-                                    </div>
-                                    <div class="text">
-                                        <h4><a href="blog-detail.html">Nunc scelerisque tincidunt estibulum</a></h4>
-                                        <span class="post-date"><span class="entry-date">21 July</span></span>
-                                    </div>
-                                </li>
-                                <li class="clearfix">
-                                    <div class="thumb data-effect-item has-effect-icon" >
-                                        <img src="assets/img/post/recent-new-3.jpg" alt="Image">
-
-                                    </div>
-                                    <div class="text">
-                                        <h4><a href="blog-detail.html">Cras eu elit congue, plac erat duicidunt nisl</a></h4>
-                                        <span class="post-date"><span class="entry-date">21 December</span></span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div><!-- /.widget_recent_news -->
-
-                        <div id="widget-banner" class="widget-banner clearfix">
-                            <div id="widget-banner-inner" class="container clearfix">
-                                <div class="widget-banner-inner-wrap">                    
-                                    <h5 class="your-headline-here">YOUR HEADLINE HERE</h5>
-                                    <div class="btn your-headline-here">
-                                        <a href="contact.html">Get A Quote</a>
-                                    </div>             
-                                </div>
-                            </div><!-- /widget-banner-inner -->            
-                        </div><!-- /.widget_your-headline-here -->
+                        <div id="scrollContainer mt-4" style="max-width: 80%; overflow: hidden;">
+                            <div class="scollBanner d-flex align-items-center" style="gap: 60px;">
+                              <img src="assets/urja/converted/certified-1.jpg" alt="" style="width: 100px;">
+                              <img src="assets/urja/converted/certified-3.jpg" alt="" style="width: 100px;">
+                              <img src="assets/urja/converted/certified-4.jpg" alt="" style="width: 100px;">
+                              <img src="assets/urja/converted/certified-5.jpg" alt="" style="width: 100px;">
+                              <img src="assets/urja/converted/certified-6.jpg" alt="" style="width: 100px;">
+                              <img src="assets/urja/converted/certified-7.jpg" alt="" style="width: 100px;">
+                            </div>
+                          </div>
+                    </div>                   
+                </div>
+                <div class="themesflat-spacer clearfix" data-desktop="45" data-mobile="45" data-smobile="45"></div>
+                <div class="post-tag-project mb-5">
+                    <div class="tag">
                     </div>
-                </div><!-- /#sidebar -->
-            </div><!-- /#content-wrap -->
+                    <div class="socical-icon"> 
+                        <span> Share :</span>
+                        <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                        <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                        <a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            
         </div><!-- /#main-content -->
 
-        <!-- Footer -->
-        <footer id="footer" class="style-1 clearfix">
+         <!-- Footer -->
+         <footer id="footer" class="style-1 clearfix">
             <img class="bg-right" src="assets/img/bg-footer-2.png" alt="Image">
             <div id="footer-widgets" class="container">
                 <div class="row ">
@@ -449,7 +389,7 @@
                 </div><!-- /.themesflat-row -->
             </div><!-- /#footer-widgets -->
         </footer><!-- /#footer -->
-
+        
          <!-- Bottom -->
          <div id="bottom" class="clearfix has-spacer">
             <div id="bottom-bar-inner" class="container">
@@ -471,7 +411,7 @@
             </div><!-- /#bottom-bar-inner -->
         </div><!-- /#bottom -->
 
-
+        
     </div><!-- /#page -->
 </div><!-- /#wrapper -->
 
@@ -487,6 +427,14 @@
 <script src="assets/js/jquery.cookie.js"></script>
 <script src="assets/js/shortcodes.js"></script>
 <script src="assets/js/main.js"></script>
+
+<!-- WOW -->
+<script src="assets/js/wow.js"></script>
+
+<!-- SWIPER -->
+<script src="assets/js/swiper.js"></script>
+
+<!-- <script src="img.js"></script> -->
 
 </body>
 </html>
