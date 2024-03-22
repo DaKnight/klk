@@ -13,7 +13,11 @@
 		margin-top: 0px;
 	}
 	.row-request-right .ok {
-  		background-color: #1F242C;
+  		background-color: #ffffff00;
+	}
+	.row-request-right-inner {
+		margin-left: 26px;
+		margin-right: 10px;
 	}
   }
 
@@ -1101,6 +1105,58 @@
 	}
 }
   @media only screen and (max-width: 530px) {
+	.box-service .service-inner-text {
+		margin-right: 5px;
+		margin-left: 5px;
+		left: -0%;
+	}
+
+	.service-inner-text.style-2 .text-wrap, .service-inner-text.style-2 .text-wrap .heading {
+		margin: 0px;
+	}
+
+	.row-request-right .heading-request {
+		font-size: 51px;
+	}
+
+	.row-request-right-inner {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.row-experiences-bottom {
+		top: 660px;
+	}
+
+	.shead {
+		font-size: 57px;
+	}
+
+	.themesflat-headings.style-1 .heading {
+		font-size: 59px;
+	}
+
+	.box-team {
+		margin-bottom: 147px;
+	}
+	
+	.c1{
+		margin-bottom: 168px;
+	}
+
+	.c2{
+		margin-bottom: 90px;
+	}
+
+	.style-2 .themesflat-headings.work .heading-shadown-text {
+		top: 14%;
+    	left: 4%;
+	}
+
+	.themesflat-headings.style-2 .heading {
+		font-size: 40px;
+	}
+
 	.box-team .box,
 	 .box-team.active .box {
 		padding-left: 20% !important;
