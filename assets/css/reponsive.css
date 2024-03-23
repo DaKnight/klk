@@ -67,6 +67,9 @@
 	.row-our-team img {
 		width: 100%;
 	}
+	.row-request {
+		margin-top: 200px;
+	}
 	#site-header .mobile-button {
 	  display: block;
 	}
@@ -635,6 +638,9 @@
 	  text-align: center !important;
 	  line-height: 25px;
 	}
+	.row-request {
+		margin-top: 290px;
+	}
 	#site-logo {
 		width: 35% !important;
 		padding: 5px 10px 62px 10px !important;
@@ -1109,6 +1115,14 @@
 		margin-right: 5px;
 		margin-left: 5px;
 		left: -0%;
+	}
+
+	.row-request {
+		margin-top: 380px;
+	}
+
+	#header-banner #header-banner-inner .header-banner-inner-wrap .blog-standar-start1 {
+		font-size: 54px;
 	}
 
 	.service-inner-text.style-2 .text-wrap, .service-inner-text.style-2 .text-wrap .heading {

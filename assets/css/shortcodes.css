@@ -2867,10 +2867,13 @@
   -o-transition: all 0.3s ease ;
   transition: all 0.3s ease ;
 }
+.row-request {
+  margin-top: 100px;
+}
 .box-office .btn-view::before {
   content: "\f041";
   font-family: "FontAwesome",sans-serif;
-  color: #57b33e;
+  color: #990000;
   margin-right: 15px;
   font-size:20px ;    
   line-height: 32px;
@@ -2881,8 +2884,8 @@
   transition: all 0.3s ease ;
 }
 .box-office .btn-view:hover {
-  border: 2px solid #57b33e;
-  background-color: #57b33e;
+  border: 2px solid #990000;
+  background-color: #990000;
   color: #fff;
   -webkit-transition: all 0.3s ease ;
   -moz-transition: all 0.3s ease ;
